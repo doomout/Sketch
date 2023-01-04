@@ -10,7 +10,7 @@ UIGraphicsBeginImageContext(imgView.frame.size)
 //선 색상 지정   
 UIGraphicsGetCurrentContext()?.setStrokeColor(lineColor)    
 
-//라인의 끝 모양을 라운드로 설정 
+//라인의 끝 모양을 라운드로 설정     
 UIGraphicsGetCurrentContext()?.setLineCap(CGLineCap.round)  
 
 //선 굵기 지정   
