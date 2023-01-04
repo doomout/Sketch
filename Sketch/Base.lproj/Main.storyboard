@@ -29,6 +29,9 @@
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Clear"/>
+                                        <connections>
+                                            <action selector="clearImageView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DB9-YX-N4c"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -42,6 +45,9 @@
                             <constraint firstItem="dQp-lN-Zym" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Znb-ZP-yhu"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imgView" destination="FKb-Z9-6hD" id="y90-7r-AmL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
