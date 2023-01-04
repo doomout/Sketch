@@ -16,7 +16,7 @@ UIGraphicsGetCurrentContext()?.setLineCap(CGLineCap.round)
 //선 굵기 지정   
 UIGraphicsGetCurrentContext()?.setLineWidth(lineSize)   
 
-//이전에 이동된 위치인 lastPoing 로 시작 위치를 이동시킨다. 
+//이전에 이동된 위치인 lastPoing 로 시작 위치를 이동시킨다.     
 UIGraphicsGetCurrentContext()?.move(to: CGPoint(x: lastPoing.x, y: lastPoing.y))    
 
 //lastPoing에서 현재 위치인 currPoint 까지 선을 추가한다.  
